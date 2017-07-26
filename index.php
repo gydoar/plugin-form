@@ -11,7 +11,7 @@
 /*
 * @description Hook que se ejecuta al activar el plugin
 */
-register_activation_hook( __FILE__, 'udp_create_tables' );
+register_activation_hook( __FILE__, 'guardar_base' );
 
 
 function html_form_code() {
